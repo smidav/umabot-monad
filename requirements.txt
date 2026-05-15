@@ -1,0 +1,10 @@
+discord.py>=2.3.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+opencv-python-headless>=4.9.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+# System dependency (not pip): tesseract-ocr
+# Ubuntu/Debian: sudo apt install tesseract-ocr
+# macOS:         brew install tesseract
+# Windows:       https://github.com/UB-Mannheim/tesseract/wiki
