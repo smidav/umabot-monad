@@ -108,7 +108,7 @@ def _is_background(col_hsv: np.ndarray) -> bool:
     """True if this column's average HSV matches the teal racetrack background."""
     hm = float(np.mean(col_hsv[:, 0]))
     sm = float(np.mean(col_hsv[:, 1]))
-    return 85 <= hm <= 130 and sm >= 40
+    return 85 <= hm <= 130 and sm >= 30
 
 
 def _is_player_card(hsv: np.ndarray, x1: int, x2: int, y1: int, y2: int) -> bool:
